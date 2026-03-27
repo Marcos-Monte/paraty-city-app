@@ -1,19 +1,18 @@
-import { Text, TouchableOpacity, View } from 'react-native'
+import { Text, View } from 'react-native'
 import routes from '../../routes'
-
-const otherRoutes = routes.filter(route => route.name !== 'Tela Inicial')
+import Button from '../ui/Button'
 
 export default function Home(props){
+    const otherRoutes = routes.filter(route => route.name !== 'Tela Inicial')
     return (
         <View>
             <Text>Home</Text>
             {otherRoutes.map((route, index) => (
-                <TouchableOpacity 
+                <Button
                     key={index}
-                    onPress={() => { props.navigation.navigate(`${route.name}`)}}
-                >
-                    <Text>{route.name}</Text>
-                </TouchableOpacity>
+                    routeName={route.name} 
+                    onRoute={() => props.navigation.navigate(`${route.name}`)}
+                />
             ))}
         </View>
     )
