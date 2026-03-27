@@ -1,11 +1,15 @@
-import { Text, TouchableOpacity } from 'react-native'
+import { Text, TouchableOpacity } from "react-native";
+import styles from "./styles";
 
-export default function Button(props){
+export default function Button(props) {
     return (
-        <TouchableOpacity 
-            onPress={() => { props.onRoute() }}
+        <TouchableOpacity
+            style={styles.button}
+            onPress={() => {
+                props.onRoute();
+            }}
         >
-            <Text>{props.routeName}</Text>
+            <Text style={styles.title}>ver {props.routeName}</Text>
         </TouchableOpacity>
-    )
+    );
 }
