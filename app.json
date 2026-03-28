@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "ParatyCity",
-    "slug": "ParatyCity",
+    "slug": "paraty-city-app",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -24,6 +24,12 @@
     },
     "web": {
       "favicon": "./assets/icon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "164fb4b3-421d-4966-8cc4-7e8ccd7a916e"
+      }
+    },
+    "owner": "marcos-monte"
   }
 }
