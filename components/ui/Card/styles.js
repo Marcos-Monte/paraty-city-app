@@ -19,6 +19,13 @@ const styles = StyleSheet.create({
         fontWeight: 900,
         marginBottom: 10,
     },
+    superTitle: {
+        fontSize: 20,
+        fontWeight: 900,
+        marginBottom: 10,
+        textAlign: 'center',
+        width: '100%',
+    },
     text: {
         fontSize: 12,
         fontWeight: 200,

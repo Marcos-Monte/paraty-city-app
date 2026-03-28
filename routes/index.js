@@ -5,7 +5,7 @@ import Tours from "../components/Tours";
 
 const routes = [
   {
-    name: "Tela Inicial",
+    name: "Inicio",
     component: Home,
   },
   {

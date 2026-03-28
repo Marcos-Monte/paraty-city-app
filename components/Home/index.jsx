@@ -5,7 +5,7 @@ import Button from "../ui/Button";
 import styles from "./styles";
 
 export default function Home(props) {
-    const otherRoutes = routes.filter((route) => route.name !== "Tela Inicial");
+    const otherRoutes = routes.filter((route) => route.name !== "Inicio");
     return (
         <View style={styles.pageContainer}>
             <View style={styles.card}>

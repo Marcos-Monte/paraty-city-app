@@ -44,3 +44,18 @@ export const restaurantCards = [
     },
 ]
 
+export const tourCards = [
+    {
+        img: ArmazenMar,
+        superTitle: 'Tirolesa',
+    },
+    {
+        img: BenditasRestaurante,
+        superTitle: "Rafting",
+    },
+    {
+        img: SereiaDoMar,
+        superTitle: 'Canoagem no mangue',
+    },
+]
+

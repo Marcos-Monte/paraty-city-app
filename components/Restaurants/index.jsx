@@ -1,13 +1,13 @@
 import { ScrollView, Text, View } from "react-native";
 import { restaurantCards } from "../../data/cards";
+import styles from "../../style/styles";
 import Card from "../ui/Card";
-import styles from "./styles";
 
 export default function Restaurants() {
     return (
         <ScrollView
             style={{ flex: 1 }}
-            contentContainerStyle={styles.pageContainer}
+            contentContainerStyle={[styles.pageContainer, { backgroundColor: '#fecda5' }]} 
         >
             <Text style={styles.cardTitle}>Bares e Restaurantes</Text>
             <Text style={styles.cardSubtitle}>

@@ -2,7 +2,6 @@ import { StyleSheet } from "react-native";
 
 const styles = StyleSheet.create({
     pageContainer: {
-        backgroundColor: '#beceff',
         alignItems: 'center',
         justifyContent: 'center',
         padding: 10,
@@ -15,12 +14,12 @@ const styles = StyleSheet.create({
     },
     cardTitle: {
         fontSize: 20,
-        fontWeight: 'bold',
+        fontWeight: '900',
         textAlign: 'center',
     },
     cardSubtitle: {
         fontSize: 14,
-        fontWeight: 200,
+        fontWeight: '200',
         textAlign: 'center'
     },
     photo: {
