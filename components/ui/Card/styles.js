@@ -2,12 +2,13 @@ import { StyleSheet } from "react-native";
 
 const styles = StyleSheet.create({
     cardContainer: {
+        width: '100%',
         justifyContent: 'center',
-        alignItems: 'start',
+        alignItems: 'flex-start',
     },
     img: {
         width: '100%',
-        height: '24%',
+        // height: '10%',
         borderRadius: 4,
     },
     text: {

@@ -21,5 +21,17 @@ export const accommodationCards = [
         priceText: 'Valor médio: R$ 550,00',
         locText: 'Localização: Centro Histórico'
     },
+{
+        img: PousadaPortoImperial,
+        title: 'Pousada Porto Imperial',
+        priceText: 'Valor médio: R$ 550,00',
+        locText: 'Localização: Centro Histórico'
+    },
+{
+        img: PousadaPortoImperial,
+        title: 'Pousada Porto Imperial',
+        priceText: 'Valor médio: R$ 550,00',
+        locText: 'Localização: Centro Histórico'
+    },
 
 ]
