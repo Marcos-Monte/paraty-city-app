@@ -1,6 +1,6 @@
-import PousadaMissanga from '../../assets/hospedagens/hospedagem01.png';
-import PousadaMorroForte from '../../assets/hospedagens/hospedagem02.png';
-import PousadaPortoImperial from '../../assets/hospedagens/hospedagem03.png';
+import PousadaMissanga from '../assets/hospedagens/hospedagem01.png';
+import PousadaMorroForte from '../assets/hospedagens/hospedagem02.png';
+import PousadaPortoImperial from '../assets/hospedagens/hospedagem03.png';
 
 export const accommodationCards = [
     {
@@ -21,17 +21,4 @@ export const accommodationCards = [
         priceText: 'Valor médio: R$ 550,00',
         locText: 'Localização: Centro Histórico'
     },
-{
-        img: PousadaPortoImperial,
-        title: 'Pousada Porto Imperial',
-        priceText: 'Valor médio: R$ 550,00',
-        locText: 'Localização: Centro Histórico'
-    },
-{
-        img: PousadaPortoImperial,
-        title: 'Pousada Porto Imperial',
-        priceText: 'Valor médio: R$ 550,00',
-        locText: 'Localização: Centro Histórico'
-    },
-
 ]

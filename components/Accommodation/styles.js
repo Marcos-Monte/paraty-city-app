@@ -7,6 +7,11 @@ const styles = StyleSheet.create({
         justifyContent: 'center',
         padding: 10,
         gap: 10,
+        minHeight: '100%',
+    },
+    cardsContainer: {
+        gap: 10, 
+        width: '100%',
     },
     cardTitle: {
         fontSize: 20,
