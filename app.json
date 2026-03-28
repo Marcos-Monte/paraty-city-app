@@ -30,6 +30,12 @@
         "projectId": "164fb4b3-421d-4966-8cc4-7e8ccd7a916e"
       }
     },
-    "owner": "marcos-monte"
+    "owner": "marcos-monte",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/164fb4b3-421d-4966-8cc4-7e8ccd7a916e"
+    }
   }
 }
