@@ -9,7 +9,9 @@ export default function Card(props) {
                 source={props.img}
             />
             <Text style={styles.title}>{props.title}</Text>
-            <Text style={styles.text}>{props.priceText}</Text>
+            {
+                props.priceText && <Text style={styles.text}>{props.priceText}</Text>
+            }
             <Text style={styles.text}>{props.locText}</Text>
         </View>
     )

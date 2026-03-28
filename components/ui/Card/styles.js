@@ -7,21 +7,22 @@ const styles = StyleSheet.create({
         backgroundColor: '#fff',
         borderRadius: 4,
         padding: 10,
-        gap: 10,
     },
     image: {
         width: '100%',
-        height: 60,
+        height: 80,
         borderRadius: 4,
+        marginBottom: 10,
     },
     title: {
         fontSize: 20,
         fontWeight: 900,
+        marginBottom: 10,
     },
     text: {
         fontSize: 12,
         fontWeight: 200,
-        lineHeight: 10,
+        lineHeight: 14,
     },
 })
 
